@@ -19,6 +19,27 @@ function Mafia() {
       <Link to="#" className="logo">
         <img src={logo} alt="" />
       </Link>
+      <input className="menu-btn" type="checkbox" id="menu-btn" />
+      <label className="menu-icon" for="menu-btn">
+        <span className="nav-icon"></span>
+      </label>
+      <ul className="menu">
+        <li>
+          <Link to="0">Header</Link>
+        </li>
+        <li>
+          <Link to="0">Features</Link>
+        </li>
+        <li>
+          <Link to="0">Offers</Link>
+        </li>
+        <li>
+          <Link to="0">About</Link>
+        </li>
+        <li>
+          <Link to="0">Contact</Link>
+        </li>
+      </ul>
     </nav>
   );
 }
