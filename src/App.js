@@ -3,6 +3,7 @@ import Mafia from "./Components/Mafia";
 import Header from "./Components/Header";
 import Features from "./Components/Feature";
 import Offer from "./Components/Offer";
+import About from "./Components/About";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Header/>
             <Features/>
             <Offer/>
+            <About/>
         </div>
      );
 }
